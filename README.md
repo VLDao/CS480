@@ -26,14 +26,11 @@ http://172.16.198.132:7050
 1. [Poll Creator] creates a new poll
 2. [Poll Creator] inserts poll details
 3. Application publishes poll
-3a. User details
-
+3a. User details are verified (extends)
 4. [Poll Voter] finds a poll
 5. [Poll Voter] selects voting choices
-5a. Voting selection transaction is verified by [Blockchain API]
+5a. Voting selection transaction is verified by [Blockchain API] (includes)
 6. [Blockchain API] adds vote selection to the blockchain
-
 7. Poll expires and triggers generation of poll results
-7a. Poll result analysis and statistics are generated
-
+7a. Poll result analysis and statistics are generated (extends)
 
