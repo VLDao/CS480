@@ -2,15 +2,7 @@
 
 Poll Creator using Blockchain API
 
-### Blockchain
-
-## Setup
-https://www.ibm.com/developerworks/java/library/j-chaincode-for-java-developers/index.html
-
-## IP address
-http://172.16.198.132:7050
-
-## Requirements Analysis
+#### Requirements Analysis
 
 ### Project Requirements
 * Utilize a block-chain platform to achieve functionality
