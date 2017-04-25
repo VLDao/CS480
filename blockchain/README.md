@@ -15,6 +15,32 @@
 * Unix:
     * ChaincodeTutorial/build/distributions/ChaincodeTutorial/bin/ChaincodeTutorial
 
+### Initialize Chain
+    send json request:
+    {
+    "jsonrpc": "2.0",
+      "method": "deploy",
+      "params": {
+        "type": 4,
+        "chaincodeID":{
+            "name": "PollTableName"
+        },
+        "ctorMsg": {
+            "args": ["init", "KEY-1", "Chaincode Initialized"]
+        }
+      },
+      "id": 1
+    }
+    json response:
+    {
+    "jsonrpc": "2.0",
+       "result":    {
+          "status": "OK",
+          "message": "ChaincodeLogSmartContract"
+       },
+       "id": 1
+    }
+    
 ### Add to Chain
     send json request:
     {
