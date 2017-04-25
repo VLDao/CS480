@@ -16,7 +16,7 @@
     * ChaincodeTutorial/build/distributions/ChaincodeTutorial/bin/ChaincodeTutorial
 
 ### Add to Chain
-* send json request:
+  send json request:
     {
     "jsonrpc" : "2.0",
         "method" : "invoke",
@@ -31,7 +31,7 @@
         },
         "id" : 2
     }
-* json response:
+  json response:
     {
         "jsonrpc" : "2.0",
         "result" : {
@@ -42,7 +42,7 @@
     }
 
 ### Query Chain
-* send json request:
+  send json request:
     {
     "jsonrpc" : "2.0",
         "method" : "invoke",
@@ -57,7 +57,7 @@
         },
         "id" : 3
     }
-* json response:
+  json response:
     {
         "jsonrpc" : "2.0",
         "result" : {
