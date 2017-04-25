@@ -4,16 +4,16 @@
 * install Docker
 * install Go
 * set GOPATH to docker directory
-    * (Unix):
+    * (Unix):    
     $: export PATH=$PATH:~/blockchain/
 
 ### Start Hyperledger Network Image in Docker
-* in directory containing docker-compose.yml
+* in directory containing docker-compose.yml  
     $: docker-compose up
 
 ### Start Blockchain Server
-* Unix:
-    * ChaincodeTutorial/build/distributions/ChaincodeTutorial/bin/ChaincodeTutorial
+* Unix:  
+    ChaincodeTutorial/build/distributions/ChaincodeTutorial/bin/ChaincodeTutorial
 
 ### Initialize Chain
     send json request:
